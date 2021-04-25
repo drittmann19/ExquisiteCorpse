@@ -1,0 +1,89 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <title>Page Not Found</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Space+Mono&family=Spartan:wght@300&display=swap" rel="stylesheet">
+  <style>
+    * {
+      line-height: 1.2;
+      margin: 0;
+    }
+
+    html {
+      color: #888;
+      display: table;
+      font-family: 'nasa',sans-serif;
+      height: 100%;
+      text-align: center;
+      width: 100%;
+    }
+
+    /* https://fonts.google.com/specimen/Space+Mono?query=spa&preview.text_type=custom&sidebar.open=true&selection.family=Space+Mono|Spartan:wght@300#standard-styles */
+
+    body {
+      display: table-cell;
+      vertical-align: middle;
+      margin: 2em auto;
+
+      background-image: url("img/bg.gif");
+      background-repeat: repeat;
+      background-color: rgb(90, 93, 97);
+
+      cursor: url("img/cursor.ico"), default;
+    }
+
+    h1 {
+      color: #555;
+      font-size: 2em;
+      font-weight: 400;
+      font-family: 'Space Mono', monospace;
+      line-height: 2em;
+      color: white;
+    }
+
+    p {
+      margin: 0 auto;
+      width: 280px;
+      font-family: 'Space Mono', monospace;
+      color: white;
+    }
+
+    @media only screen and (max-width: 280px) {
+
+      body,
+      p {
+        width: 95%;
+        margin: 0 auto;
+        width: 280px;
+        font-family: 'nasa', sans-serif;
+        color: white;
+      }
+
+      h1 {
+        font-size: 1.5em;
+        margin: 0 0 0.3em;
+        color: #555;
+        font-size: 2em;
+        font-weight: 400;
+        font-family: 'nasa', sans-serif;
+        line-height: 2em;
+        color: white;
+      }
+
+
+
+    }
+  </style>
+</head>
+
+<body>
+  <h1>Page Not Found</h1>
+  <p>Sorry, but the page you were trying to view does not exist.</p>
+</body>
+
+</html>
+<!-- IE needs 512+ bytes: https://docs.microsoft.com/archive/blogs/ieinternals/friendly-http-error-pages -->

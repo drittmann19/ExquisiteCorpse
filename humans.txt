@@ -1,0 +1,26 @@
+# humanstxt.org/
+# The humans responsible & technology colophon
+
+# TEAM
+
+  <Damean Rittmann> -- <404, respective css>
+  <Aidan Quade> -- <role>
+  <Isabella Macdonald> -- <og meta tags, respective css>
+  <Gray Assi> -- <icons, humans.txt, respective css>
+
+# THANKS
+
+    <Damean Rittmann> -- <404, respective css>
+    <Aidan Quade> -- <story themes, respective css, writing>
+    <Isabella Macdonald> -- <role>
+    <Gray Assi> -- <icons, humans.txt, respective css>
+
+# TECHNOLOGY COLOPHON
+
+    CSS3, HTML5
+    Apache Server Configs, jQuery, Modernizr, Normalize.css
+
+
+# SITE
+  <software: atom, github, bash, cl>
+  <last update: 2021/02>
